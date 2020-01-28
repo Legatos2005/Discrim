@@ -4,7 +4,7 @@ function newFunction() {
     var vopros = confirm('Будем решать квадратное уравнение?');
     console.log(vopros);
     if (vopros) {
-        var a = prompt('Введите первое число', '');
+        var a = prompt('Введите первое число равное нулю', '');
         var b = prompt('Введите второе число', '');
         var c = prompt('Введите третье число', '');
         var discrim = (b * b - 4 * a * c);
